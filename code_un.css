@@ -70,6 +70,10 @@ span:hover{
     border-radius: 5px;
 }
 
+#name{
+    display: none;
+}
+
 input{
     height: 50px;
     width:100%;
@@ -81,6 +85,12 @@ input:hover{
     border-width:2px;
     border-color:#2196F3;
 }
+.login{
+    display: flex;
+    justify-content: space-between;
+
+}
+
 .login{
     display: flex;
     justify-content: space-between;
@@ -107,6 +117,12 @@ input:hover{
     color: pink;
     font-weight:600;
     color:#2196F3
+}
+
+.signup{
+    text-align: center;
+    font-size: 20px;
+    cursor: pointer;
 }
 
 /* ------image slider------ */
